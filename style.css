@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+  background-color: black;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 15px 60px;
+}
+.navbar li a{
+  padding: 20px 50px;
+  text-decoration: none;
+  color: white;
+}
+.navbar li :hover{
+  background-color: grey;
+  color: black;
+}
+.cafe{
+  background: url("/asects/images/image1.jpg") no-repeat center center/ cover;
+  width: 1300px;
+  height: 430px;
+}
+ h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4.5rem;
+  font-weight: lighter;
+  font-family:"Inconsolata", sans-serif;
+  padding-top: 75px; 
+}
+.text2{
+  position: relative;
+}
+.text{
+  position: absolute;
+  background-color: black;
+ border: 2px solid black;
+  bottom: 0;
+ color:white;
+}
+.adr{
+  position: relative;
+}
+.Adr{
+  position: absolute;
+color:white;
+bottom: 0;
+right: 30px;
+
+}
+.para{
+  border: 3px solid black;
+  background-color: black;
+  color: white;
+  max-width: 200px;
+  word-spacing: 2px;
+  margin: auto;
+  font-size:20px;
+  letter-spacing: 2px;
+  margin-top: 80px;
+}
+.parah{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 70px;
+  word-spacing: 3px;
+  line-height: 25px;
+}
+.parah2{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 15px;
+  word-spacing: 3px;
+  line-height: 25px;
+}
+.parah3{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 30px;
+  word-spacing: 4px;
+  line-height: 25px;
+  border-left: 5px solid gray;
+  background-color: rgb(243, 243, 247);
+  letter-spacing: 2px;
+}
+.pic{
+  background: url("W3.CSS Template_files/coffeeshop.jpg") no-repeat center center/ cover;
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 360px;
+  margin-top: 30px; 
+}
+.time{
+  margin-left: 300px;
+  margin-top: 20px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.menu{
+  border: 3px solid black;
+  background-color: black;
+  color: white;
+  max-width: 120px;
+  word-spacing: 2px;
+  margin: auto;
+  letter-spacing: 2px;
+  margin-top: 60px;
+}
+.menu2{
+  background: url("W3.CSS Template_files/coffeehouse2.jpg") no-repeat center center/ cover;
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 360px;
+  margin-top: 30px; 
+}
+.find{
+  border: 3px solid black;
+  background-color: black;
+  color: white;
+  max-width: 200px;
+  word-spacing: 2px;
+  margin: auto;
+  letter-spacing: 2px;
+margin-top: 60px;
+}
+.find2{
+  margin-left: 300px;
+  margin-top: 60px;
+}
+.pix{
+  background: url("W3.CSS Template_files/map.jpg") no-repeat center center/ cover;
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 360px;
+  margin-top: 30px; 
+}
+.find3{
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+}
+.find4{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 70px;
+  word-spacing: 3px;
+  line-height: 25px; 
+}
+.form{
+  margin-top: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 50px;
+  width:690px;
+}
+h5{
+ margin-left: 300px;
+ border: 3px solid black;
+ background-color: black;
+ color: white;
+ margin-top: 30px;
+ height: 30px;
+ display: flex;
+ align-items: center;
+ max-width: 120px;
+}
+h5:hover{
+  border-color: grey;
+  background-color: grey;
+  color: black;
+}
+.final{
+  margin-top: 70px;
+  margin-left: 550px;
+  color: black;
+}
+a
+{
+  color:black;
+}
+a:hover{
+  color: green;
+}
+.menu3{
+  border: 2px solid rgb(238, 230, 230);
+  height: 45px;
+  display: flex;
+  align-items: center;
+ max-width: 700px; 
+ margin-top: 40px;
+ margin-left: 350px;
+ word-spacing: 400px;
+ background-color: rgb(240, 232, 232);
+}
+.menu4{
+  border: 2px solid rgb(243, 236, 236);
+  max-width: 700px; 
+ margin-left: 350px;
+ background-color: rgb(228, 218, 218);
+}
+@media screen {
+  .body{
+    position: fixed;
+    display: block;
+  }
+}
