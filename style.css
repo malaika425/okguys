@@ -11,7 +11,7 @@
 .navbar li{
   float: left;
   list-style: none;
-  margin: 15px 60px;
+  margin: 15px 10px;
 }
 .navbar li a{
   padding: 20px 50px;
@@ -24,7 +24,6 @@
 }
 .cafe{
   background: url("/asects/images/image1.jpg") no-repeat center center/ cover;
-  width: 1300px;
   height: 430px;
 }
  h3 {
@@ -62,6 +61,7 @@ right: 30px;
   background-color: black;
   color: white;
   max-width: 200px;
+  margin: 0 auto;
   word-spacing: 2px;
   margin: auto;
   font-size:20px;
@@ -69,22 +69,22 @@ right: 30px;
   margin-top: 80px;
 }
 .parah{
-  margin-left: 300px;
-  margin-right: 300px;
+  max-width: 600px;
+  margin: 0 auto;
   margin-top: 70px;
   word-spacing: 3px;
   line-height: 25px;
 }
 .parah2{
-  margin-left: 300px;
-  margin-right: 300px;
+  max-width: 600px;
+  margin: 0 auto;
   margin-top: 15px;
   word-spacing: 3px;
   line-height: 25px;
 }
 .parah3{
-  margin-left: 300px;
-  margin-right: 300px;
+  max-width: 600px;
+  margin: 0 auto;
   margin-top: 30px;
   word-spacing: 4px;
   line-height: 25px;
@@ -94,13 +94,15 @@ right: 30px;
 }
 .pic{
   background: url("W3.CSS Template_files/coffeeshop.jpg") no-repeat center center/ cover;
-  margin-left: 300px;
-  margin-right: 300px;
+  max-width: 600px;
+  width: 100%;
   height: 360px;
   margin-top: 30px; 
+  margin:0 auto;
 }
 .time{
-  margin-left: 300px;
+max-width: 600px;
+margin: 0 auto;
   margin-top: 20px;
   word-spacing: 2px;
   letter-spacing: 1px;
@@ -117,10 +119,11 @@ right: 30px;
 }
 .menu2{
   background: url("W3.CSS Template_files/coffeehouse2.jpg") no-repeat center center/ cover;
-  margin-left: 300px;
-  margin-right: 300px;
+  max-width: 600px;
+  width: 100%;
   height: 360px;
-  margin-top: 30px; 
+  margin-top: 30px;
+  margin:0 auto ; 
 }
 .find{
   border: 3px solid black;
@@ -133,15 +136,17 @@ right: 30px;
 margin-top: 60px;
 }
 .find2{
-  margin-left: 300px;
+  max-width: 600px;
+  margin: 0 auto;
   margin-top: 60px;
 }
 .pix{
   background: url("W3.CSS Template_files/map.jpg") no-repeat center center/ cover;
-  margin-left: 300px;
-  margin-right: 300px;
+  max-width: 600px;
+  width: 100%;
   height: 360px;
-  margin-top: 30px; 
+  margin-top: 30px;
+  margin: 0 auto; 
 }
 .find3{
   border: 2px solid black;
@@ -149,16 +154,16 @@ margin-top: 60px;
   color: white;
 }
 .find4{
-  margin-left: 300px;
-  margin-right: 300px;
+  max-width: 600px;
+  margin: 0 auto;
   margin-top: 70px;
   word-spacing: 3px;
   line-height: 25px; 
 }
 .form{
   margin-top: 15px;
-  margin-left: 300px;
-  margin-right: 300px;
+  max-width: 600px;
+  margin: 0 auto;
   height: 50px;
   width:690px;
 }
@@ -197,14 +202,14 @@ a:hover{
   align-items: center;
  max-width: 700px; 
  margin-top: 40px;
- margin-left: 350px;
+ margin-left: 100px;
  word-spacing: 400px;
  background-color: rgb(240, 232, 232);
 }
 .menu4{
   border: 2px solid rgb(243, 236, 236);
   max-width: 700px; 
- margin-left: 350px;
+ margin-left: 100px;
  background-color: rgb(228, 218, 218);
 }
 @media screen {
