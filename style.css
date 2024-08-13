@@ -1,220 +1,278 @@
 *{
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    background-color: whitesmoke;
 }
-.navbar{
-  background-color: black;
+.first{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 7%;
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
 }
-.navbar ul{
-  overflow: auto;
+.two{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    left: 43%; 
+    top: 15%;
 }
-.navbar li{
-  float: left;
-  list-style: none;
-  margin: 15px 10px;
+a{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
 }
-.navbar li a{
-  padding: 20px 50px;
-  text-decoration: none;
-  color: white;
+.colum{
+    float: left;
+    margin-top: 13%;
+    margin-left: 25px;
+    border: 2px solid black;
+    height: 450px;
+    max-width: 400px;
 }
-.navbar li :hover{
-  background-color: grey;
-  color: black;
-}
-.cafe{
-  background: url("/asects/images/image1.jpg") no-repeat center center/ cover;
-  height: 430px;
-}
- h3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 4.5rem;
-  font-weight: lighter;
-  font-family:"Inconsolata", sans-serif;
-  padding-top: 75px; 
-}
-.text2{
-  position: relative;
-}
-.text{
-  position: absolute;
-  background-color: black;
- border: 2px solid black;
-  bottom: 0;
- color:white;
-}
-.adr{
-  position: relative;
-}
-.Adr{
-  position: absolute;
-color:white;
-bottom: 0;
-right: 30px;
 
+.colum1{
+    display: flex;
+    margin-top: 180px; 
+    width: 65%;
+    margin-left: 20px;
+    border: 2px solid black;
+    height: 600px;
 }
-.para{
-  border: 3px solid black;
-  background-color: black;
-  color: white;
-  max-width: 200px;
-  margin: 0 auto;
-  word-spacing: 2px;
-  margin: auto;
-  font-size:20px;
-  letter-spacing: 2px;
-  margin-top: 80px;
+h3{
+    margin-left: 25px;
+    font-size: 20px;
 }
-.parah{
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 70px;
-  word-spacing: 3px;
-  line-height: 25px;
+.three{
+    margin-left: 20px;
+    margin-right: 440px;
+    height: 250px;
 }
-.parah2{
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 15px;
-  word-spacing: 3px;
-  line-height: 25px;
+.p{
+    margin-left: 20px;
+    margin-top: 18px;
 }
-.parah3{
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 30px;
-  word-spacing: 4px;
-  line-height: 25px;
-  border-left: 5px solid gray;
-  background-color: rgb(243, 243, 247);
-  letter-spacing: 2px;
+.pa{    
+    margin-left: 20px;
+    margin-top: 30px;
 }
-.pic{
-  background: url("W3.CSS Template_files/coffeeshop.jpg") no-repeat center center/ cover;
-  max-width: 600px;
-  width: 100%;
-  height: 360px;
-  margin-top: 30px; 
-  margin:0 auto;
+h3{
+    margin-top: 30px;
 }
-.time{
-max-width: 600px;
-margin: 0 auto;
-  margin-top: 20px;
-  word-spacing: 2px;
-  letter-spacing: 1px;
+h4{
+    margin-left: 40px;
+    margin-top:60px ;
+    border: 1px solid grey;
+    max-width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.menu{
-  border: 3px solid black;
-  background-color: black;
-  color: white;
-  max-width: 120px;
-  word-spacing: 2px;
-  margin: auto;
-  letter-spacing: 2px;
-  margin-top: 60px;
+h4:hover{
+    background-color: grey;
 }
-.menu2{
-  background: url("W3.CSS Template_files/coffeehouse2.jpg") no-repeat center center/ cover;
-  max-width: 600px;
-  width: 100%;
-  height: 360px;
-  margin-top: 30px;
-  margin:0 auto ; 
+b{
+    margin-left: 45rem;
 }
-.find{
-  border: 3px solid black;
-  background-color: black;
-  color: white;
-  max-width: 200px;
-  word-spacing: 2px;
-  margin: auto;
-  letter-spacing: 2px;
-margin-top: 60px;
+.para{ 
+    margin-top: 40%;
+    margin-left: 20px;
+    margin-top: 30px;
 }
-.find2{
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 60px;
+.colum2{
+    float: left;
+    margin-top: 3%; 
+    width: 65%;
+    margin-left: 20px;
+    border: 2px solid black;
+    height: 600px;  
+}  
+.row2{
+    margin-top: 20%;
+    border: 1px solid grey;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: baseline;
+    background-color: grey;
 }
-.pix{
-  background: url("W3.CSS Template_files/map.jpg") no-repeat center center/ cover;
-  max-width: 600px;
-  width: 100%;
-  height: 360px;
-  margin-top: 30px;
-  margin: 0 auto; 
+.row3{
+    display: flex;
+    border: 1px solid grey;
 }
-.find3{
-  border: 2px solid black;
-  background-color: black;
-  color: white;
+.row4{
+    display: flex;
+    border: 1px solid grey;
 }
-.find4{
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 70px;
-  word-spacing: 3px;
-  line-height: 25px; 
+.row5{
+    display: flex;
+    border: 1px solid grey;
 }
-.form{
-  margin-top: 15px;
-  max-width: 600px;
-  margin: 0 auto;
-  height: 50px;
-  width:690px;
+.row6{
+    display: flex;
+    border: 1px solid grey;
 }
-h5{
- margin-left: 300px;
- border: 3px solid black;
- background-color: black;
- color: white;
- margin-top: 30px;
- height: 30px;
- display: flex;
- align-items: center;
- max-width: 120px;
+.row7{
+    margin-top: 10%;
+    border: 1px solid grey;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: baseline;
+    background-color: grey;
 }
-h5:hover{
-  border-color: grey;
-  background-color: grey;
-  color: black;
+.row8{
+    display: flex;
+    border: 1px solid grey;
+    height: 200px;
+    flex-wrap: wrap;
+    padding : 10px;
 }
-.final{
-  margin-top: 70px;
-  margin-left: 550px;
-  color: black;
+.row9{
+    margin-left: 10px;
+    border: 2px solid black;
+    height: 20px;
+    width: 50px;
+    background-color: black;
+    color: white;
 }
-a
-{
-  color:black;
+.a{
+ font-size: 15px;  
+  font-family: "Raleway", sans-serif; 
+  border: 1px solid grey;
+  width: 80px;
+  height: 18px;
+  margin-left: 5px;
+  background-color: gray;
 }
-a:hover{
-  color: green;
-}
-.menu3{
-  border: 2px solid rgb(238, 230, 230);
-  height: 45px;
-  display: flex;
-  align-items: center;
- max-width: 700px; 
- margin-top: 40px;
- margin-left: 100px;
- word-spacing: 400px;
- background-color: rgb(240, 232, 232);
-}
-.menu4{
-  border: 2px solid rgb(243, 236, 236);
-  max-width: 700px; 
- margin-left: 100px;
- background-color: rgb(228, 218, 218);
-}
-@media screen {
-  .body{
-    position: fixed;
-    display: block;
-  }
-}
+.b{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 60px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .c{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 50px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .d{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 80px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .e{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 40px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .f{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 40px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .g{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 40px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .h{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 45px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .i{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 40px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .j{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 55px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .k{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 65px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .l{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 50px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .m{
+    font-size: 15px;  
+     font-family: "Raleway", sans-serif; 
+     border: 1px solid grey;
+     width: 50px;
+     height: 18px;
+     margin-left: 5px;
+     background-color: gray;
+   }
+   .three{
+   margin-left: 40px;
+   margin-top:60px ;
+   border: 1px solid grey;
+   max-width: 150px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+   .row{
+    display: flex;
+   }
+   .four{
+    display: flex;
+    border: 2px solid black;
+   }
